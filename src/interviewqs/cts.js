@@ -41,3 +41,17 @@ module.exports = {
 //npm i selfcal --save
 //const add = require("selfcal");
 //add.add(2,3)
+//polyfills in nodejs
+//send static data using routes.
+
+//https://blog.risingstack.com/fundamental-node-js-design-patterns/
+
+// src
+//       ├── app.js			app entry point
+//       ├── /api			controller layer: api routes
+//       ├── /config			config settings, env variables
+//       ├── /services		service layer: business logic
+//       ├── /models			data access layer: database models	
+//       ├── /scripts		miscellaneous NPM scripts
+//       ├── /subscribers		async event handlers
+//       └── /test               test suites
