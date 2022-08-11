@@ -1,18 +1,18 @@
 // #1. Creating Abstract class
-class Mobile{
-  constructor(name,color,initialCharging){
+class Mobile {
+  constructor(name, color, initialCharging) {
     this.name = name;
-    this.color=color;
+    this.color = color;
     this.initialCharging = initialCharging;
     var currentCharging = 0;
-    var chargingDetails=(charge)=>{
-      currentCharging=this.initialCharging+charge;
-      if(currentCharging>100){
+    var chargingDetails = (charge) => {
+      currentCharging = this.initialCharging + charge;
+      if (currentCharging > 100) {
         throw Error("Mobile is fully charged");
       }
-      console.log("Current Charging "+currentCharging);
+      console.log("Current Charging " + currentCharging);
     }
-    this.plugInCharge = (charge)=>{
+    this.plugInCharge = (charge) => {
       chargingDetails(charge);
     }
   }

@@ -1,26 +1,26 @@
 // #1. Creating Encapsulated class
 class Bank{
-  constructor(name,account_no,account_type){
+  constructor(name, account_no, account_type) {
     var name = name;
     var account_no = account_no;
     var account_type = account_type;
-    this.getName =()=>{
+    this.getName = () => {
       return name;
     }
-    this.getAccountNum=()=>{
+    this.getAccountNum = () => {
       return account_no;
     }
-    this.getAccountType=()=>{
+    this.getAccountType = () => {
       return account_type;
     }
-  
-    var setName = (newName)=>{
+
+    var setName = (newName) => {
       name = newName;
     }
-    this.setAccountNumber=()=>{
-      account_no = Math.floor(Math.random()*9000000000);
+    this.setAccountNumber = () => {
+      account_no = Math.floor(Math.random() * 9000000000);
     }
-    this.setAccountType=(accountType)=>{
+    this.setAccountType = (accountType) => {
       account_type = accountType;
     }
   }
