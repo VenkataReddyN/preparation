@@ -1,0 +1,60 @@
+//Datatypes
+//Closure example.
+//Hoisting function example array function.
+//This function array function
+
+//Callbacks  
+//Promises
+
+// Promises.all(["P1",P2])
+
+
+//await async
+
+//inheritance multi inheritance.
+// method loading and overriding.
+
+//call , apply, bind
+//Shallow Copy deep Copy
+
+
+Nodejs
+
+//Event loop.
+https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
+
+//use of node js
+
+//Streams
+//Express server
+//Path parameters.
+//Fetch
+
+//difference b/w spawn and fork.
+//cluster.
+// https://blog.appsignal.com/2021/02/03/improving-node-application-performance-with-clustering.html
+//pm2 
+
+//Authentication
+//jwt validation
+
+//middleware 
+ //logging
+ //error handling
+ //body parser
+
+// package.json package-lock.json
+
+// Queries DB
+// NOSQL VS SQL
+// primary key and foreign key.. self foreign key
+// Normal Forms (1NF, 2NF, 3NF, BNF, 4NF, 5NF)
+
+//top second salary.
+//Stored Procedures , transaction, rollback.
+//index postgres
+//JOINS ()
+
+
+
+
